@@ -1,0 +1,55 @@
+.smallbox {
+
+font-size:.8em;
+   font-weight:normal; 
+   background:#E7F3EF;
+   color:#448D76;
+   line-height:1.4em; 
+   border-bottom:3px solid #23483C; 
+   }
+
+
+
+
+.footer {
+   position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+
+}
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   
+   }
+   
+   
+ .leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+.column {
+  float: left;
+  width: 33.33%; 
+  padding: 15px;
+  
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}  

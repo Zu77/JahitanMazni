@@ -1,0 +1,142 @@
+
+body,html {
+    height: 100%;
+    margin: 0;
+    font-family: arial;
+}
+body {
+ background-color : white;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+  background-size: 100% 100%;
+  font-family: Arial;  
+  }
+  
+#nav {
+   background:#79BEA8;
+   float:none;
+   margin:0;
+   padding:0px;
+   border-bottom:3px solid #23483C;
+   width:100%;
+   font-family:courier,arial,helvetica;
+   font-size:100%; 
+   z-index:1000; 
+   position:relative;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;}
+  
+  
+#nav ul {
+   margin:0;
+   padding:0;
+   list-style:none;
+   float:right;
+   position:relative;
+   right:50%;
+}
+#nav ul li {
+   margin:0 0 0 1px;
+   padding:0;
+   float:left;
+   position:relative;
+   left:50%;
+   top:1px;
+}
+#nav ul li a {
+   display: list-item;
+   margin:0;
+   padding:.6em .5em .4em;
+   font-size:1em;
+   line-height:1em;
+   background:#79BEA8;
+   text-decoration: blink;
+   color:#444;
+   font-weight:bold;
+   
+}
+#nav ul li.active a {
+   color:#fff;
+   background:#000;
+}
+#nav ul li a:hover {
+   background:#093426; 
+   color:#23483C;
+   border-bottom:3px solid #448D76;
+}
+#nav ul li:hover a,
+#nav ul li.hover a { 
+   background:#E7F3EF; 
+   color:#23483C;
+   border-bottom:3px solid #448D76;
+}
+
+
+#nav ul ul {
+   display:none;
+   position:absolute;
+   top:2em;
+   left:0;
+   right:auto; 
+   width:10em; 
+}
+#nav ul ul li {
+   left:auto;  
+   margin:0; 
+   clear:left;
+   width:100%;
+}
+#nav ul ul li a,
+#nav ul li.active li a,
+#nav ul li:hover ul li a,
+#nav ul li.hover ul li a { 
+   font-size:.8em;
+   font-weight:normal; 
+   background:#E7F3EF;
+   color:#448D76;
+   line-height:1.4em; 
+   border-bottom:3px solid #23483C; 
+}
+#nav ul ul li a:hover,
+#nav ul li.active ul li a:hover,
+#nav ul li:hover ul li a:hover,
+#nav ul li.hover ul li a:hover { 
+   background:#79BEA8; 
+   color:#fff;
+}
+
+
+#nav ul ul.last {
+   left:0; 
+   right:50px; 
+}
+
+
+#nav ul li:hover ul,
+#nav ul li.hover ul { 
+   display:block; 
+}
